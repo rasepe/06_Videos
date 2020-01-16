@@ -58,16 +58,7 @@ public class Console {
 		users.add(user);
 		System.out.println("USUARI CREAT CORRECTAMENT");
 		mainMenu();
-		//user entered something
 
-
-		//System.out.println("Cognom?");
-		//String surname = sc.nextLine();
-		////sc.next();
-		//System.out.println("Password?");
-		//String password = sc.nextLine();
-		//sc.next();
-		//User newUser = new User (name,surname,password);
 	}
 
 	public static void login() throws VideosException {
