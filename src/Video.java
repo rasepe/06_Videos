@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Video {
-//Video: esta format por una URL, un títol i una llista de tags*.
+	//Video: esta format por una URL, un títol i una llista de tags*.
 	String url;
 	String title;
 	List<String> tags = new ArrayList<String>();
@@ -30,7 +30,7 @@ public class Video {
 	public void setTags(List<String> tags) {
 		this.tags = tags;
 	}
-	
-	
-	
+
+
+
 }
