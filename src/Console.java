@@ -81,7 +81,7 @@ public class Console {
 		if(password.isEmpty()) {
 			throw new VideosException(VideosException.EMPTY_FIELD);
 		}
-		boolean coincidence = false;
+		boolean coincidence = false; // necessària?
 		for (User i : users) {
 			if (name.equals(i.getName()) && surname.equals(i.getSurname()) && password.equals(i.getPassword())) {
 				coincidence = true; // necessària?
