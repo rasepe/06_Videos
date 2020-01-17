@@ -87,10 +87,11 @@ public class Console {
 				coincidence = true; // necessària?
 				currentUser = i; // necessària???
 				userMenu(i);
-			} else {
-				System.out.println("NO EXISTEIX AQUEST USUARI O EL PASSWORD ES INCORRECTE");
-				mainMenu();
-			}
+			} 
+		}
+		if (coincidence == false) {
+			System.out.println("NO EXISTEIX AQUEST USUARI O EL PASSWORD ES INCORRECTE");
+			mainMenu();
 		}
 	}
 
