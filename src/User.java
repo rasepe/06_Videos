@@ -10,8 +10,6 @@ public class User {
 	private String password;
 	private Date registrationDate = new Date();
 	private List<Video> videos = new ArrayList<Video>();
-	//List<User> users = new ArrayList<User>();
-
 
 
 	public User(String name, String surname, String password) {
@@ -19,7 +17,6 @@ public class User {
 		this.name = name;
 		this.surname = surname;
 		this.password = password;
-		//users.add(this);
 	}
 
 	public String getName() {
