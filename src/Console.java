@@ -9,8 +9,8 @@ public class Console {
 	private static ArrayList<User> users = new ArrayList<User>();
 	//private static User currentUser;
 
-	public static void mainMenu() throws VideosException {
 
+	public static void mainMenu() throws VideosException {
 
 		System.out.println("1. Crear usuari nou");
 		System.out.println("2. Login usuari existent");
@@ -32,6 +32,7 @@ public class Console {
 		}
 
 	}
+
 
 	public static void signUp() throws VideosException {
 		sc.nextLine();
@@ -60,6 +61,7 @@ public class Console {
 		mainMenu();
 
 	}
+
 
 	public static void login() throws VideosException {
 		sc.nextLine();
@@ -95,6 +97,7 @@ public class Console {
 		}
 	}
 
+
 	public static void userMenu(User user) throws VideosException {
 		System.out.println("Benvingut, " + user.getName() + " " + user.getSurname());
 		System.out.println("Entra una opció:");
@@ -117,11 +120,10 @@ public class Console {
 			mainMenu();
 		}
 
-
 	}
 
-	public static void addVideo(User user) throws VideosException {
 
+	public static void addVideo(User user) throws VideosException {
 
 		sc.nextLine();
 		String url;
@@ -154,8 +156,8 @@ public class Console {
 		System.out.println("VIDEO AFEGIT CORRECTAMENT");
 		userMenu(user);
 
-
 	}
+
 
 	public static void viewVideoList(User user) throws VideosException {
 		System.out.println("Llistat de vídeos:");
@@ -165,7 +167,6 @@ public class Console {
 		sc.nextLine();
 		userMenu(user);
 	}
-
 
 
 }
