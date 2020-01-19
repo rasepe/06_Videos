@@ -3,6 +3,5 @@ public class Main {
 
 		Console.mainMenu();
 
-		System.out.println("fi");
 	}
 }
