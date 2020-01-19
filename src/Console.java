@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Console {
 	private static Scanner sc = new Scanner(System.in);
 	private static ArrayList<User> users = new ArrayList<User>();
-	//private static User currentUser;
 
 
 	public static void mainMenu() throws VideosException {
@@ -87,7 +86,6 @@ public class Console {
 		for (User i : users) {
 			if (name.equals(i.getName()) && surname.equals(i.getSurname()) && password.equals(i.getPassword())) {
 				coincidence = true; 
-				//currentUser = i;  necessària???
 				userMenu(i);
 			} 
 		}
